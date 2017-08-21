@@ -1,0 +1,5 @@
+Implementation of a simple concurrent Java caching system
+
+Backed by org.apache.commons.collections4.map.LRUMap
+
+Expired objects are collected by a background thread
